@@ -1,0 +1,64 @@
+body, header{
+    max-width: 1920px;
+    width: 100%;
+    background: rgb(151, 153, 163);
+    .brand{
+    height:auto;
+    }  
+    .brand{
+    height:auto;
+    }
+    .carouselhometitre{
+       color: #f1e214;
+       font-size: 2.4rem;
+       font-weight: bold; 
+    }
+    .carouselhometexte{
+        color: #f1e214;
+       font-size: 2rem;
+       font-weight: bold; 
+    }
+    .homecolonne1 a:hover{
+        text-decoration: none;
+    }
+    .btncolonne1{
+        background-color:#ead017 ;
+        color: black;
+    }
+}
+
+footer{
+    max-width: 1920px;
+    width: 100%;
+    background: rgb(151, 153, 163);
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: none;
+        color: rgba(black , 0.7);
+    }
+    .mapouter{
+        position:relative;
+        text-align:right;
+        height:300px;width:600px;
+    }
+    .gmap_canvas{
+        overflow:hidden;
+        background:none!important;
+        height:500px;width:600px;
+    }
+    .reseau{
+        text-align: center;
+    }
+    .reseau a{
+        font-size:2.2rem;
+        color: white;
+    }
+    .reseau a:hover{
+        font-size:2.2rem;
+        color: rgba(white,0.7);
+    }    
+}
